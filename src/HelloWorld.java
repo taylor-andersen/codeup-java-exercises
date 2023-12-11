@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class HelloWorld {
     public static void main(String[] args) {
 //        System.out.println("Hello World!");
@@ -50,5 +52,11 @@ public class HelloWorld {
         x /= y;
         y -= x;
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter something: ");
+        String userInput = scanner.nextLine();
+
+        System.out.println("You entered: \"" + userInput + "\"");
     }
 }
+
