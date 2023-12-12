@@ -3,27 +3,27 @@ import java.util.Scanner;
 public class ConsoleExercises {
     public static void main(String[] args) {
 
-        double pi = 3.14159;
-        System.out.printf("The value of pi is approximately %.2f%n", pi);
-
+//        double pi = 3.14159;
+//        System.out.printf("The value of pi is approximately %.2f%n", pi);
+//
         Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Enter an Integer: ");
-        int userInt = scanner.nextInt();
-        System.out.println("You've entered " + userInt);
-
-        System.out.println("Please enter three words.\nFirst Word: ");
-        String firstWord = scanner.next();
-        System.out.println("Second Word: ");
-        String secondWord = scanner.next();
-        System.out.println("Third Word: ");
-        String thirdWord = scanner.next();
-        System.out.printf("Your words are: %s, %s, %s.%n", firstWord,secondWord,thirdWord);
-
-        System.out.println("Please enter a sentence:");
-        String userSkip = scanner.nextLine();
-        String userSentence = scanner.nextLine();
-        System.out.println("You've entered: " + userSentence);
+//
+//        System.out.println("Enter an Integer: ");
+//        int userInt = scanner.nextInt();
+//        System.out.println("You've entered " + userInt);
+//
+//        System.out.println("Please enter three words.\nFirst Word: ");
+//        String firstWord = scanner.next();
+//        System.out.println("Second Word: ");
+//        String secondWord = scanner.next();
+//        System.out.println("Third Word: ");
+//        String thirdWord = scanner.next();
+//        System.out.printf("Your words are: %s, %s, %s.%n", firstWord,secondWord,thirdWord);
+//
+//        System.out.println("Please enter a sentence:");
+//        String userSkip = scanner.nextLine();
+//        String userSentence = scanner.nextLine();
+//        System.out.println("You've entered: " + userSentence);
 
         System.out.println("Enter the length of your classroom:");
         String roomLength = scanner.nextLine();
@@ -39,6 +39,5 @@ public class ConsoleExercises {
         double volume = length * width * height;
         System.out.printf("The area of your classroom is %.3f, the circumference is %.3f, and the volume is %.3f.", area, circumference, volume);
 
-        scanner.useDelimiter("\n");
     }
 }
